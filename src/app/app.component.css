@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Varela+Round&display=swap');
+
+.app {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  color: rgb(68, 65, 65);
+  font-size: clamp(1rem, 1.6vw, 2rem);
+  max-width: 80%;
+  min-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #7aacd0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3.5em;
+  padding: 5%;
+}
