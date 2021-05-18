@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Todo } from './../../models/Todo';
 
 @Component({
@@ -17,11 +18,11 @@ export class TodosComponent implements OnInit {
   ngOnInit(): void {
     this.todos = [
       {
-        content: 'First todo',
+        content: 'Bring the car to the mechanic',
         completed: false
       },
       {
-        content: 'Second todo',
+        content: 'Pay the phone bill',
         completed: true
       },
     ]
