@@ -1,56 +1,43 @@
+.todos {
+	align-content: center;
+	max-width: 100%;
+}
+
+.todo-input {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.todo-input button {
+	margin-left: 2%;
+}
+
+.label {
+	margin-right: 2%;
+}
+
 .todo {
 	display: flex;
-	padding: 10px 15px;
-	background-color: #FFF;
-	border-bottom: 1px solid #DDD;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 3% 12%;
+	background-color: #7aacd0;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .todo:nth-child(even) {
-	background-color: #EEE;
+	background-color: #ADC6D8
 }
 
 .todo:last-of-type {
 	border-bottom: 0;
 }
 
-.todo .id {
-	flex: 1 1 50px;
-}
-
-.todo .content {
-	flex: 1 1 100%;
-}
-
 .todo.done .content {
 	text-decoration: line-through;
 }
 
-.todo-input {
-	display: block;
-	width: 100%;
-	padding: 10px 15px;
-	appearance: none;
-	border: none;
-	background-color: #F3F3F3;
-	margin-top: 15px;
-	font-size: 20px;
-	outline: none;
-}
 
-.todo-submit {
-	display: block;
-	width: 100%;
-	max-width: 200px;
-	appearance: none;
-	border: none;
-	outline: none;
-	background: none;
-
-	background-color: #FE4880;
-	color: #FFF;
-	margin: 15px auto;
-
-	padding: 10px 15px;
-	font-size: 18px;
-	font-weight: 700;
-}
