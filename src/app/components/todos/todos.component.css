@@ -24,12 +24,7 @@
 	align-items: baseline;
 	justify-content: space-between;
 	padding: 3% 12%;
-	background-color: #7aacd0;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
-
-.todo:nth-child(even) {
-	background-color: #ADC6D8
+	margin: 1% 10%;
 }
 
 .todo:last-of-type {
