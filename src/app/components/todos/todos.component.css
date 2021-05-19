@@ -8,6 +8,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: baseline;
+	margin: 3%;
 }
 
 .todo-input button {
@@ -23,8 +24,8 @@
 	flex-direction: row;
 	align-items: baseline;
 	justify-content: space-between;
-	padding: 3% 12%;
-	margin: 1% 10%;
+	padding: 3% 8%;
+	margin: 1% 5%;
 }
 
 .todo:last-of-type {
