@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Varela+Round&display=swap");
 
 * {
   margin: 0;
@@ -7,4 +7,7 @@
   box-sizing: border-box;
   font-size: clamp(1rem, 1.6vw, 2rem);
 }
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}

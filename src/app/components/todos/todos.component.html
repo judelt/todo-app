@@ -2,21 +2,20 @@
   <form class="todo-input" (submit)="addTodo()">
     <mat-form-field class="label">
       <mat-label>New task</mat-label>
-      <input
-        matInput
-        [(ngModel)]="inputTodo"
-        name="task"
-      >
+      <input matInput [(ngModel)]="inputTodo" name="task" />
     </mat-form-field>
-  
+
     <button mat-mini-fab color="primary">
       <mat-icon>add</mat-icon>
     </button>
   </form>
-  <mat-card *ngFor="let todo of todos; let i = index" class="todo {{ todo.completed? 'done' : '' }}">
+  <mat-card
+    *ngFor="let todo of todos; let i = index"
+    class="todo {{ todo.completed ? 'done' : '' }}"
+  >
     <div class="id">{{ i + 1 }}</div>
     <div class="content" (click)="toggleDone(i)">{{ todo.content }}</div>
-    <button mat-mini-fab color="warn" (click)="deleteTodo(i)" >
+    <button mat-mini-fab color="warn" (click)="deleteTodo(i)">
       <mat-icon>delete</mat-icon>
     </button>
   </mat-card>

@@ -13,10 +13,7 @@ import { TodosComponent } from './components/todos/todos.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TodosComponent
-  ],
+  declarations: [AppComponent, TodosComponent],
   imports: [
     BrowserModule,
     FormsModule,
@@ -26,9 +23,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     MatIconModule,
     MatToolbarModule,
     MatCardModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
