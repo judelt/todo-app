@@ -2,7 +2,7 @@
 Single page application where we can add new tasks, cross them, and delete them.</br>
 Build with Angular 12.0.0.
 
-### Screenshot
+### Screenshots
  <img src="docs/desktop.png" width="600"/><br /><br />
  <img src="docs/phone.png" width="600"/><br /><br />
  <img src="docs/ipad.png" width="600"/><br /><br />
